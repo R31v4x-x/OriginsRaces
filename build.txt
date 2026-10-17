@@ -1,0 +1,4 @@
+displayName = Terraria Origins Race Classes
+author = Reivax
+modReferences = MrPlagueRaces, Origins
+version = 0.1
