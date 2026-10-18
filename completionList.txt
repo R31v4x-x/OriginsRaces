@@ -1,0 +1,61 @@
+SYMBOL KEY:
+|---
+@: Needs resource (missing base sprite. Includes gun sprite for weapons, the actual entity for NPCs, or the appearance of a tile)
+@2: Needs resource (missing projectile/use sprite. Includes NPC attack animations)
+@3: Needs resource (missing texture for shader/filter)
+@4: Resource needs modification (resprite/reformat)
+
+#: Needs code (not implemented at all)
+#2: Needs code (partial implementation/needs changes)
+#3: Has bug or change specified in bugs channel
+#4: Code complete other than graphical code, for which it needs design
+
+$: Needs sound (SFX/music not composed)
+$2: Needs sound (SFX/music is composed but not implemented)
+
+§: Needs other assets (structure data, shaders, etc.)
+
+%: Insufficient planning (item-functionality/NPC-behavior misunderstood or absent from planner)
+%2: Insufficient planning (entirely unplanned and needing concept)
+%3: Insufficient planning (too similar to vanilla counterpart)
+
+^: Completed
+^2: Partial completion (sprites completed)
+^3: Partial completion (code completed)
+^4: Partial completion (sound completed)
+^5: Partial completion, but requires tML update to implement
+^6: Partial completion, entry refers to multiple distinct parts
+
+X: No progress
+*: Wiki entry available
+!!!: Priority
+
+☻: Pending review
+♦: I don't think I did this as planned, pending review anyway
+?: Requesting explanation
+♠: Pure combination item (effects are all present on other items, can be implemented by combining effects (if they're all implemented))
+◘: Pending review before continuation
+○: Implemented with temp stats/missing recipe/etc.
+†: Needs balance/testing (unicode hex code 2020)
+ᗢ: Implemented, but will need to be revisited in later update
+⚐: Needs banner (unicode hex code 2690)
+⛥: Needs design discussion (unicode hex code 26E5)
+⚿: Missing localization
+ᥢ: Can't be implemented in a stable manner (unicode hex code 1962)
+々: Missing prerequisite development (unicode hex code 3005)
+赏: Missing loot (unicode hex code 8D4F)
+␡: Needs removal (unicode hex code 2421)
+▼: Needs map color adjustment
+
+[NOTE: Entries will often have ","'s, "-"'s, and "/"'s to signify multiple elements at once
+ + Additionally, specific requests can be mentioned in "()" after the entry]
+---
+
+Races:
+|---
+(X) Ashen (i'm thinkin mini mech suit piloted by a unique skeleton)
+(X) Coruption
+(X) Crimson
+(@, #2) Defiled
+(X) Riven
+---
